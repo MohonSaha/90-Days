@@ -6,3 +6,14 @@
 .image{
     border-radius: 10px;
 }
+
+
+/* Responsive grid for mobile devices  */
+
+@media screen and (max-width:576px) {
+
+    .image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
